@@ -46,7 +46,7 @@ async function getFollowersCount(url) {
 }
 
 // API endpoint
-app.post('/x', async (req, res) => {
+app.post('/get-followers-count', async (req, res) => {
     const { abc } = req.body;
 
     if (!Array.isArray(abc)) {
