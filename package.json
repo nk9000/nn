@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
    "scripts": {
-    "build": "./render-build.sh",
+    "build": "npm install && npm run postinstall",
     "start": "node server.js",
     "postinstall": "npx puppeteer install"
   },
